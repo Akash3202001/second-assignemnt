@@ -1,0 +1,563 @@
+/* font size related style  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,800&display=swap');
+  
+  html{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      
+    }
+    body{
+        font-family: 'Mulish', sans-serif;
+        background: #FFF;
+        padding:40px 100px 110px 80px ;
+        width: 1440px;
+        /* height: 6940px; */
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+  }
+
+/* shared styles  */
+
+.head-2{
+    color: #131318;
+    /* text-align: center; */
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+  /* menu related style start  */
+
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .uniq-name{
+    color:#FF5400 ;
+}
+.top-site-heading{
+    display: flex;
+    /* border: 1px solid gold; */
+    text-align: center;
+    align-items: center;
+    gap: 1.8rem;    
+}
+.top-site-heading h1{
+    font-size: 2.25rem;
+}
+
+.top-site-heading img{
+    width: 100%;  
+}
+.menu-bar{
+    display: flex 
+}
+.menu-bar a{
+    margin-left: 44px;
+    text-decoration:none; 
+    color: #424247;
+}
+#menu-btn{
+    color:  #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+  /* menu related style stop  */
+
+
+  /* banner related style  start */
+  .main-banner-sec{
+
+  background-image:url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    background-color: rgba(19, 19, 24, 0.50);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+.heading-sec{
+    color: #FFF;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-top: 6.25rem;
+}
+.item-description{
+color: #FFF;
+text-align: center;
+font-size:1rem ;
+font-weight: 400;
+margin-top: 1.5rem;
+}
+.different{
+ border-radius: 8px;
+ background: #FFF;
+ color: rgba(19, 19, 24, 0.50);
+text-align: center;
+align-items: center;
+font-size: 16px;
+font-weight: 400;
+
+padding: 16px;
+}
+.same{
+    border-radius:8px;
+    
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 16px;
+  ;
+    
+}
+#find-now{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-weight: 1rem;
+    font-weight: 700;
+    padding: 16px;
+}
+/* button aria styles  */
+.btn-aria{
+    display: inline-flex;
+    padding: 16px;
+    justify-content: center;
+    gap: 24px;
+    border-radius: 8px;
+    box-shadow:rgba(255, 255, 255, 0) ;
+    background: rgba(44, 43, 43, 0.021);
+    width: 100%;
+    
+}
+
+.primary-btn a{
+    text-decoration: none;
+    color:#fff;
+
+}
+.primary-btn{
+ 
+    border-radius: 8px;
+    background-color: #FF5400;
+    width: 20%;
+    text-align: center;
+    padding: 25px;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+  /* banner related style  stop */
+  /* sec-2 related styles  start */
+
+.section-2{
+    display: flex;
+    margin-top:6.25rem ;
+}
+.our-popular{
+    margin-right: 6.25rem;
+}
+
+  /* sec-2 related styles  stop */
+
+  /* chose your destination start */
+
+  .head-1-2{
+    color:#131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  .item-description-2{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center; 
+    font-size: 16px;
+    font-weight: 400;
+   
+  }
+  .ractanagel-img{
+    display: flex;
+    margin-top: 48px;
+    gap: 1.5rem;
+    
+  }
+  .ract-2{
+    margin-left: 140px;
+  }
+.ractanagel-img img{
+  width: 100%;
+ 
+}
+.img-title{
+  color: #FFF;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 240px;
+
+}
+.img-title-1{
+  color: #FFF;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 860px;
+}
+.img-div-2{
+  display: flex;
+  margin-top: 1.5rem;
+  gap:1.5rem
+}
+.img-div-2 h2{
+
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+
+}
+.img-title-2{
+  color: #FFF;
+position: absolute;
+margin-left: 130px;
+margin-top: 120px;
+
+
+}
+.img-title-3{
+color: #FFF;
+position: absolute;
+margin-top: 120px;
+margin-left:540px;
+
+}
+.img-title-4{
+color: #FFF;
+position: absolute;
+margin-top: 120px;
+margin-left: 980px;
+}
+.img-div-3{
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 1.5rem;
+}
+.img-div-3 h2{
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+
+}
+
+
+.img-div {
+    position: relative;
+    top: 0;
+  }
+/* .img-div h2 {
+    position: absolute;
+    top: 0;
+  } */
+  .img-div h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+  }
+.img-title-5{
+  color: #FFF;
+  position:absolute;
+  margin-top: 120px;
+  margin-left: 150px;
+}
+.img-title-6{
+  color: #FFF;
+  position:absolute;
+  margin-top: 120px;
+  margin-left: 760px;
+}
+
+  /* chose your destination stop */
+  /* card item start  */
+
+.card-item{
+display: flex;
+margin-top: 3rem;
+justify-content: center;
+gap: 1rem;
+}
+.card-details{
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+}
+.card-details-2{
+  padding: 2rem;
+  border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+.card-details-3s{
+  /* justify-content: center;
+  margin: auto; */
+  padding: 2rem;
+  /* margin-top: 1.5rem; */
+  border-radius: 16px;
+  /* width: 570px; */
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+width: 100%;
+}
+
+.newsletter-description-1 input{
+    max-width: 500px;
+    width: 100%;
+height: 52px;
+flex-shrink: 0;
+
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: 0;
+padding-left: 15px;
+}
+
+.btn-aria-1{
+    max-width: 393px;
+    width: 100%;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+}
+
+/* 
+.card-details-3s{
+    border: 1px solid rgba(233, 68, 68, 0.20)  ;
+    background: rgba(233, 68, 68, 0.05)  ;
+    width: 100%;
+   } */
+
+  /* card item stop  */
+  /* newsletter content style start  */
+  .card-item{
+    flex-direction: row;
+  }
+  .card-item div{
+    width: 50%;
+  }
+
+.newsletter-content{
+  display: flex;
+  margin-top:6.25rem ;
+  gap: 1.5rem;
+justify-content: center;
+
+  }
+  .newsletter-description-1{
+    border-radius: 16px;
+  border: 1px solid #FF5400;
+  padding: 1.9rem;
+  }
+  .btn-aria-1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    width: 60%;
+    border-radius: 8px;
+    background: #FF5400;
+  }
+.ns-item{
+  /* color: #FFF; */
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  /* margin-left: 120px; */
+  /* transform: rotate(-19.628deg); */
+  /* border-radius: 16px; */
+  /* background: #FF5400; */
+
+}
+.ns-btn-1{
+  /* color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  transform: rotate(-19.628deg);
+margin-left: 250px;
+border-radius: 16px;
+background: #FF5400; */
+
+}
+.ns-btn-2{
+  /* color: #FFF;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+  margin-left: 200px;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #FF5400; */
+}
+
+
+
+  /* newsletter content style stop  */
+/* footer section styles start */
+
+.footer-header{
+  background: rgba(19, 19, 24, 0.05);
+  text-align: center;
+  margin-top:6.25rem ;
+  max-width: 1440px;
+  width: 100%;
+  height: 502px;
+
+}
+
+.top-site-heading-2{
+  display: flex;
+  /* border: 1px solid gold; */
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6.875rem;
+ 
+
+  gap: 1.8rem;    
+}
+.footer-description{
+  color: #5A5A5D;
+text-align: center;
+margin-bottom: 2rem;
+font-size: 16px;
+font-weight: 400;
+
+}
+.social-c{
+display: flex;
+justify-content: center;
+gap: 10px;
+
+}
+hr{
+  margin-top:3.125rem ;
+  max-width: 872px;
+  width: 100%;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+margin-bottom:6.875rem ;
+}
+.newsletter-content > div{
+    /* width: 100%; */
+}
+
+.newslatter-images{
+    position: relative;
+}
+
+.ns-item{
+    position: absolute;
+    bottom: 40px;
+    right: 5px;
+    background-color: #FF5400;
+    border-radius: 15px;
+    padding: 15px;
+
+    transform: rotate(-25deg);
+}
+.ns-item p{
+    color: white;
+    font-size: 14px;
+    margin: auto;
+    font-weight: 400;
+}
+.ns-item h2{
+    color: white;
+    font-size: 22px;
+    margin: auto;
+}
+
+.footer-description{
+    padding: 25px;
+}
+.last-footer{
+  margin-top: 3,125rem;
+ 
+}
+/* footer section styles stop */
+
+.hide{
+  display: none;
+}
+
+.discount-content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.discount-content p{
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.deals-discounts-parent{
+    background-image: url("../Images/Rectangle 12.png");
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.deals-discounts-parent > div{
+    width: 50%;
+}
+
+.deals-discounts{
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 15px;
+}
+
+.book-now-tour{
+    color: white;
+    border: none;
+    width: 150px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+}
+.book-price{
+    color: #FF5400;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
