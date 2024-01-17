@@ -38,32 +38,32 @@
     justify-content: space-between;
   }
   
-  .uniq-name{
+  .travel-name{
     color:#FF5400 ;
 }
-.top-site-heading{
+.top-site-container{
     display: flex;
     /* border: 1px solid gold; */
     text-align: center;
     align-items: center;
     gap: 1.8rem;    
 }
-.top-site-heading h1{
+.top-site-container h1{
     font-size: 2.25rem;
 }
 
-.top-site-heading img{
+.top-site-container img{
     width: 100%;  
 }
-.menu-bar{
+.nav-bar{
     display: flex 
 }
-.menu-bar a{
+.nav-bar a{
     margin-left: 44px;
     text-decoration:none; 
     color: #424247;
 }
-#menu-btn{
+#nav-btn{
     color:  #FF5400;
     text-align: center;
     font-size: 18px;
@@ -530,7 +530,22 @@ margin-bottom:6.875rem ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-top: 50px;
 
+}
+.deals-discounts-parent-1{
+    background-image: url("../Images/Group\ 40.png");
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+
+}
+.deals-discounts-parent-1 > div{
+    width: 50%;
 }
 .deals-discounts-parent > div{
     width: 50%;
